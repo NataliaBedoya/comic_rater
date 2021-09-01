@@ -1,11 +1,9 @@
 import { getComic } from "./services/request";
 
 export const GET_COMIC_INFO = "GET_COMIC_INFO";
-export const SET_RATE = "SET RATE";
 
 const initialState = {
   comic: {},
-  rate: "",
 };
 
 export function getComicInfo() {

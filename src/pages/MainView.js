@@ -9,6 +9,7 @@ import "../styles/MainView.css";
 
 function MainView() {
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(getComicInfo());
   });
@@ -18,7 +19,7 @@ function MainView() {
       <div className="MainView-InfoBlock">
         <Comic />
         <Rating />
-        <h1>{/* <Button /> */}</h1>
+        <Button />
       </div>
     </div>
   );
