@@ -9,9 +9,13 @@ function Comic() {
   });
 
   return (
-    <div className="Comics">
-      <h1 className="comic-title">{comic.title}</h1>
-      <img className="comic-img" alt={comic.transcript} src={comic.img} />
+    <div>
+      <div className="comic-title">
+        <h1>{comic.title}</h1>
+      </div>
+      <div className="comic-img">
+        <img alt={comic.transcript} src={comic.img} />
+      </div>
     </div>
   );
 }

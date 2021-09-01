@@ -4,17 +4,50 @@ body {
   background: url("../assets/images/4858766.jpg") no-repeat center top;
   background-attachment: fixed;
   background-size: cover;
+  font-family: "Rampart One";
+  font-size: 15px;
+  color: #15fe33;
 }
 
 .MainView-InfoBlock {
-  height: 700px;
-  width: 700px;
-  padding-top: 150px;
-  padding-left: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.ComicBlock {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.RatingBlock {
+  margin-top: 5px;
+  height: 50px;
+}
+
+.ButtonBlock {
+  margin-top: 5px;
 }
 
 .comic-title {
-  font-family: "Rampart";
+  display: flex;
+  justify-content: center;
+}
+
+.comic-image {
+  height: fit-content;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.imgbutton {
+  object-fit: contain;
+  height: 100px;
+  width: 100%;
 }
 
 input[type="radio"] {
