@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+body {
+  background: url("../assets/images/4858766.jpg") no-repeat center top;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Rampart One";
+  font-size: 15px;
+  color: #15fe33;
+}
+
+.MainView-InfoBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.ComicBlock {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.RatingBlock {
+  margin-top: 5px;
+  height: 50px;
+}
+
+.ButtonBlock {
+  margin-top: 5px;
+}
+
+.comic-title {
+  display: flex;
+  justify-content: center;
+}
+
+.comic-image {
+  height: fit-content;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.imgbutton {
+  object-fit: contain;
+  height: 100px;
+  width: 100%;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
