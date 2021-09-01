@@ -1,5 +1,8 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import "./App.css";
+
 import MainView from "./pages/MainView";
 import NotFound from "./pages/NotFound";
 
