@@ -15,10 +15,14 @@ function MainView() {
   });
 
   return (
-    <div className="MainView">
-      <div className="MainView-InfoBlock">
+    <div className="MainView-InfoBlock">
+      <div className="ComicBlock">
         <Comic />
+      </div>
+      <div className="RatingBlock">
         <Rating />
+      </div>
+      <div className="ButtonBlock">
         <Button />
       </div>
     </div>
