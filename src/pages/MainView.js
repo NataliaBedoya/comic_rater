@@ -16,8 +16,8 @@ function MainView() {
   return (
     <div className="MainView">
       <div className="MainView-InfoBlock">
-        <h1>{/* <Comic /> */}</h1>
-        <h1></h1>
+        <Comic />
+        <Rating />
         <h1>{/* <Button /> */}</h1>
       </div>
     </div>
